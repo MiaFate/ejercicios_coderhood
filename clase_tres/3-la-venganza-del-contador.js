@@ -6,15 +6,17 @@ var aux = 0;
 var suma =0;
 
 while (aux < limite && pares < final) {
-  aux = aux + 1;
+  
   suma = suma + aux;
+  aux = aux + 1;
+
   if (aux % 2 === 0) {
     pares = pares + 1;
   }
 
   if (aux % 3 === 0) {
-    multiplosDeTres++;
-    
+    multiplosDeTres++;    
+
   }
 }
 
