@@ -1,4 +1,4 @@
-var limite = 4;
+var limite = 9;
 var final = 10;
 var pares = 0;
 var multiplosDeTres = 0;
