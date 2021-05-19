@@ -10,7 +10,7 @@ for (var i = 0; i <= limite; i++) {
   }
 }
 console.log("La cantidad de numeros impares es: " + impares);
-console.log("La cantidad de numeros que limite/2 es: " + menores);
+console.log("La cantidad de numeros menores que limite/2 es: " + menores);
 
 /*
 2) Contador
