@@ -1,12 +1,12 @@
-var limite = 9;
+var limite = 4;
 var final = 10;
 var pares = 0;
 var multiplosDeTres = 0;
 var aux = 0;
 var suma =0;
 
-while (aux < limite && pares < final) {
-  
+while (aux <= limite && pares <= final) {
+
   suma = suma + aux;
   aux = aux + 1;
 
