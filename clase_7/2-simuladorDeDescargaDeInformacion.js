@@ -29,15 +29,15 @@ function pedirInformacion() {
     const AlienError = "Una anomalia intercepto la informacion";
     //calculo si salio en el 28% de error
     if (falla > 28 && falla <= 53) {
-      throw Error(NetworkError);
+      throw new Error(NetworkError);
     }
     //calculo si salio en el 18% el error
     if (falla > 10 && falla <= 28) {
-      throw Error(InternalError);
+      throw new Error(InternalError);
     }
     //calculo si salio en el 10% el error
     if (falla <= 10) {
-      throw Error(AlienError);
+      throw new Error(AlienError);
     }
   
     return console.log(persona);
