@@ -18,7 +18,7 @@ const alumnos = [
     return alumnos.numAlumno;
   }
   
-  const arr = alumnos.filter(filtrarNotas).forEach(aprobados);
+  //const arr = alumnos.filter(filtrarNotas).forEach(aprobados);
   //en lugar de for each tambien podriamos usar un .map()
-  
+  const arr = alumnos.filter(nota=>nota>6).forEach(alumno=>alumno.numAlumno);
   console.log(arr);
